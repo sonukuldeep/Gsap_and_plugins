@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+main {
+    max-width: 50%;
+    margin: 80px auto;
+}
+
+p {
+    font-size: 1.5rem;
+    line-height: 1.7;
+}
+
+span {
+    background-image: linear-gradient(yellow, yellow);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 1s ease-in;
+}
+
+span:hover {
+    background-size: 100% 100%;
+}
+
+.active {
+    background-size: 100% 100%;
+}
