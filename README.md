@@ -1,5 +1,7 @@
+# Gsap
+GSAP, or the GreenSock Animation Platform, is a popular and powerful JavaScript library used for creating smooth and engaging animations on websites and web applications. It provides a comprehensive set of tools and features for animating HTML elements, SVG graphics, and more. GSAP offers precise control over animations, including properties like position, rotation, scale, and opacity. It is known for its high performance and cross-browser compatibility, making it a preferred choice among web developers for creating interactive and visually appealing user experiences. GSAP's intuitive syntax and rich documentation make it accessible for both beginners and experienced developers looking to enhance their web projects with dynamic animations.
 
-# Deep dive into gsap and some of its plugin
+## Deep dive into gsap and some of its plugin
 
 This repo is focused towards learning gsap and its plugin. Each branch is a new chapter that i learn
 
