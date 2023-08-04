@@ -8,6 +8,10 @@ body {
     background-color: blueviolet;
 }
 
+.box-red {
+    background-color: red;
+}
+
 .panel {
     height: 100vh;
 }

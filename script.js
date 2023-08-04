@@ -1,15 +1,9 @@
 gsap.registerPlugin(ScrollTrigger)
 
-
-const tl = gsap.timeline({
-    scrollTrigger: {
-        trigger: ".box",
-        markers: true,
-        start: "top 80%",
-        end: "top 30%",
-        scrub: 1,
-    }
+ScrollTrigger.create({
+    trigger: ".box",
+    markers: true,
+    start: "top 80%",
+    end: "top 50%",
+    toggleClass: "box-red"
 })
-tl.to(".box", { x: 500, duration: 2 })
-    .to(".box", { y: 200, duration: 3 })
-    .to(".box", { x: 0, duration: 2 })
