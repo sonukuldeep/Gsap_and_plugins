@@ -8,7 +8,7 @@ body {
 
 .header {
     height: 15vh;
-    background-color: red;
+    background-color: skyblue;
 }
 
 .links {
@@ -30,7 +30,7 @@ body {
 }
 
 .sidebar {
-    background-color: green;
+    background-color: peru;
     width: 15vw;
 }
 
@@ -42,5 +42,5 @@ body {
 .footer {
     transform: translateY(100%);
     height: 15vh;
-    background-color: blue;
+    background-color: antiquewhite;
 }
