@@ -5,9 +5,6 @@ GSAP, or the GreenSock Animation Platform, is a popular and powerful JavaScript 
 
 This repo is focused towards learning gsap and its plugin. Each branch is a new chapter that i learn
 
-## Demo
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);border-radius:2px;" width="800" height="450" src="https://codesandbox.io/p/sandbox/github/sonukuldeep/Gsap_and_plugins/tree/main?embed=1" allowfullscreen></iframe>
-
 ## Acknowledgements
 
  - [Gsap library](https://greensock.com/get-started/)
