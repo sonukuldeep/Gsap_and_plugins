@@ -1,15 +1,17 @@
 gsap.registerPlugin(ScrollTrigger)
 
 gsap.to(".square", {
-    x: 700,
+    rotation: 360,
+    x: 300,
     duration: 3,
     scrollTrigger: {
         trigger: ".square",
         start: "top 60%",//400, //400(px) or top/center/bottom top/center/bottom or top/center/bottom 50% or it can be a function too
-        end: "top 50%", //() => `+=${document.querySelector(".square").offsetHeight}`
+        end: "bottom 30%", //() => `+=${document.querySelector(".square").offsetHeight}`
         markers: true,
         toggleClass: "red",
-        toggleActions: "restart pause reset pause", // default is "play none none none" onEnter/ onLeave/ onEntryBack/ onLeaveBack 
+        //toggleActions: "restart pause reset pause", // default is "play none none none" onEnter/ onLeave/ onEntryBack/ onLeaveBack 
         // valid toddleActions are:- play pause restart reset reverse resume complete none  
+        scrub: 1, // can be true/false or numeric value to add smoothing
     }
 })
