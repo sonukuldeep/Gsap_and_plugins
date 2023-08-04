@@ -2,24 +2,12 @@ body {
     margin: 0;
 }
 
-.div1, .div2 {
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.panel {
     height: 100vh;
-}
-
-.div1 {
-    background-color: pink;
-}
-
-.div2 {
-    background-color: salmon;
-}
-
-.square,.square2 {
-    width: 150px;
-    height: 150px;
-    background-color: fuchsia;
-}
-
-.square2 {
-    background-color: green;
 }
