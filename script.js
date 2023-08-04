@@ -5,5 +5,5 @@ ScrollTrigger.create({
     markers: true,
     start: "top 80%",
     end: "top 50%",
-    toggleClass: "box-red"
+    toggleClass: "box-red",
 })
