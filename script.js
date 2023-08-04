@@ -1,3 +1,6 @@
+//https://greensock.com/docs/v3/Plugins/Observer
+// Scroll trigger includes Observer under the hood so it need not be added 
+
 gsap.registerPlugin(ScrollTrigger)
 // gsap.registerPlugin(Observer)
 
@@ -23,5 +26,6 @@ ScrollTrigger.observe({
     onLeft: () => console.log("left"),
     onRight: () => console.log("right"),
     onPress: () => console.log("press"),
+    // onHover: () => console.log("hover"),
     onChange: (self) => console.log(self.velocityY)
 })
